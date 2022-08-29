@@ -1,0 +1,51 @@
+#brand-logo-image {
+    margin-top: 7px;
+}
+
+#serviciableCities {
+    margin: 600px 10px 0 10px;
+    border-radius: 30px;
+    padding: 20px 0px 5px 20px;
+}
+
+.serviciableCitiesImg {
+    /* margin-top: 5%; */
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    cursor: pointer;
+}
+
+#landingContent {
+    background: url(landing-background_bwpv1i.png);
+    background-size: cover;
+    background-position: center;
+    /* min-height: 1300px; */
+}
+
+/* div {
+    padding: 10px;
+} */
+
+/* #serviciableCitiesRow {
+    padding: 0;
+    margin: 0;
+} */
+
+.SuccessBannerImg {
+    width: 65px;
+    height: 65px;
+}
+
+#brand-logo-image-footer {
+    width: 100px;
+}
+
+.btn, #nav-footer li{
+    margin-top: 20px;
+}
+
+.HowToImg {
+    height: 500px;
+    width: 125px;
+}

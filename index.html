@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- google font -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&display=swap" rel="stylesheet"> -->
+    <!-- M icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Rentea</title>
+</head>
+<body>
+    <!-- Navigation and Logo -->
+    <header>
+        <nav class="nav-wrapper transparent z-depth-0">
+            <div class="container">
+                <a href="#" class="brand-logo"><img src="download.png" id="brand-logo-image"></a>
+                <a href="#" class="sidenav-trigger grey-text text-darken-2" data-target = "mobile-links">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#" class="light-blue-text">HOME</a></li>
+                    <li><a href="#" class="light-blue-text">ABOUT US</a></li>
+                    <li><a href="#" class="light-blue-text">CONTACT US</a></li>
+                    <li><a href="#" class="light-blue-text">+91 87893 30638</a></li>
+                    <li><a href="#" class="btn white light-blue-text">OWNER LOGIN</a></li>
+                </ul>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <ul class="sidenav" id="mobile-links">
+                <li><a href="#" class="light-blue-text">HOME</a></li>
+                <li><a href="#" class="light-blue-text">ABOUT US</a></li>
+                <li><a href="#" class="light-blue-text">CONTACT US</a></li>
+                <li><a href="#" class="light-blue-text">+91 87893 30638</a></li>
+                <li><a href="#" class="btn white light-blue-text">OWNER LOGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="section" id="landingContent">
+        <div class="">
+            <div class="row">
+                <div class="col s12 l5 offset-l1">
+                    <h3>Manage your <span class="light-blue-text">Property and Rent</span> Hassle-free over a sip of tea.</h3>
+                    <h6>RenTea enables Property Owners to avoid all the manual and paper work involved in managing Rent Payments, Receipt, Tenant details of multiple properties in one app.<h6>
+                </div>
+            </div>
+            <div class="row" id="download-info">
+                <div class="col s12 l5">
+                    <h5 class="center-align">Download App to get Free Access:</h5>
+                    <div class="center">
+                        <a href="https://play.google.com/store/apps/details?id=in.rentea.rentea" class="btn" id="download-info-google" class="">Get it on Google Play</a>
+                    </div>
+                    <div class="center">
+                        <a href="#" class="btn" id="download-info-apple" class="" onclick="alert('iOS App coming soon!')">Get it on Apple Store</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="white" id="serviciableCities">
+            <div class="row" id="serviciableCitiesRow">
+                <div class="col s12 l2">
+                    <figure>
+                        <img src="https://housewise.in/assets/images/bangalore.png" alt="" class="materialboxed serviciableCitiesImg"> 
+                        <figcaption>Bangalore</figcaption>
+                    </figure>
+                </div>
+                <div class="col s12 l2">
+                    <figure>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpp1gQOq_1Pavy7wEOvw4ZglyL%20BMubohB4wflwHWB6JPaZ9gxGQiZEnEYu1FDuxFoF3LY&usqp=CAU" alt="" class="materialboxed serviciableCitiesImg"> 
+                        <figcaption>Jharkhand</figcaption>
+                    </figure>  
+                </div>
+                <div class="col s12 l2">
+                    <figure>
+                        <img src="Charminar-city-Hyderabad-India-Telangana.jpeg" alt="" class="materialboxed serviciableCitiesImg"> 
+                        <figcaption>Hyderabad</figcaption>
+                    </figure>
+                </div>
+                <div class="col s12 l2">
+                    <figure>
+                        <img src="https://housewise.in/assets/images/pune1.png" alt="" class="materialboxed serviciableCitiesImg"> 
+                        <figcaption>Pune</figcaption>
+                    </figure>
+                </div>
+                <div class="col s12 l2">
+                    <figure>
+                        <img src="https://housewise.in/assets/images/mumbai.png" alt="" class="materialboxed serviciableCitiesImg"> 
+                        <figcaption>Mumbai</figcaption>
+                    </figure>
+                </div>
+                <div class="col s12 l2">
+                    <figure>
+                        <img src="https://housewise.in/assets/images/noida.png" alt="" class="materialboxed serviciableCitiesImg"> 
+                        <figcaption>Noida</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- How To Guide -->
+    <section class="container section" id="How-To">
+        <h4 class="center" style="margin: 40px 0;">How <span class="light-blue-text">RenTea</span> Works?</h4>
+        <div class="row valign-wrapper">
+            <div class="col s12 l4">
+                <img src="https://res.cloudinary.com/ddwwsfeeh/image/upload/v1626420684/HowItWorks-step1-img_bldswh.png" alt="" class="responsive-img materialboxed HowToImg">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h6>Step 1: Owner Signup/Login into the app</h6>
+            </div>
+        </div>
+        <div class="row valign-wrapper">
+            <div class="col s12 l4 offset-l1 push-l7">
+                <img src="https://res.cloudinary.com/ddwwsfeeh/image/upload/v1626420684/HowItWorks-step2-img_pqygta.png" alt="" class="responsive-img materialboxed HowToImg">
+            </div>
+            <div class="col s12 l6 offset-l1 pull-l5 right-align">
+                <h6>Step 2: Owner add their Properties, Room and Tenant Info</h6>
+            </div>
+        </div>
+        <div class="row valign-wrapper" >
+            <div class="col s12 l4">
+                <img src="https://res.cloudinary.com/ddwwsfeeh/image/upload/v1626420684/HowItWorks-step3-img_bm5guv.png" alt="" class="responsive-img materialboxed HowToImg">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h6>Step 3: Owner get all upcoming, pending payment info with notifications</h6>
+            </div>
+        </div>
+        <div class="row valign-wrapper">
+            <div class="col s12 l4 offset-l1 push-l7">
+                <img src="https://res.cloudinary.com/ddwwsfeeh/image/upload/v1626420684/HowItWorks-step4-img_djetcl.png" alt="" class="responsive-img materialboxed HowToImg">
+            </div>
+            <div class="col s12 l6 offset-l1 pull-l5 right-align">
+                <h6>Step 4: Tenant get the app link & can log into the app and pay the rent, get receipt etc.</h6>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Success Banner -->
+    <div class="light-blue">
+        <div class="row white-text">
+            <div class="col s12 l3 center">
+                <figure>
+                    <img src="https://res.cloudinary.com/ddwwsfeeh/image/upload/v1626421201/registered-room-icon_dqkod0.png" class="SuccessBannerImg">
+                    <figcaption><h6>1000+ <br> Registered rooms </h6></figcaption>
+                </figure>
+            </div>
+            <div class="col s12 l3 center">
+                <figure>
+                    <img src="https://res.cloudinary.com/ddwwsfeeh/image/upload/v1626421201/properties-listed-icon_rfd4es.png" class="SuccessBannerImg">
+                    <figcaption><h6>200+ <br> Properties listed </h6></figcaption>
+                </figure>
+            </div>
+            <div class="col s12 l3 center">
+                <figure>
+                    <img src="https://res.cloudinary.com/ddwwsfeeh/image/upload/v1626421201/transaction-done-icon_zce39g.png" class="SuccessBannerImg">
+                    <figcaption><h6>100+ <br> Verified owners </h6></figcaption>
+                </figure>
+            </div>
+            <div class="col s12 l3 center">
+                <figure>
+                    <img src="https://res.cloudinary.com/ddwwsfeeh/image/upload/v1626421201/verified-owners-icon_anqco3.png" class="SuccessBannerImg">
+                    <figcaption><h6>10L+ <br> Transactions done </h6></figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <!-- Talk to Us -->
+    <section class="section container" id="contact">
+        <h4 class="center">Talk to us</h4>
+        <div class="row">
+            <div class="col s12 l5">
+                <form action="">
+                    <div class="input-field">
+                        <i class="material-icons prefix">person</i>
+                        <input type="text" id="name">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" id="email">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">phone</i>
+                        <input type="text" id="phone">
+                        <label for="email">Phone</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <div class="input-field center">
+                        <button class="btn light-blue">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <div class="blue-text text-darken-1" style="margin:40px 20px;">
+                    <i class="material-icons left">phone</i>
+                    <span><h6>+91 87893 30638</h6></span>
+                </div>
+                <div class="blue-text text-darken-1" style="margin:40px 20px;">
+                    <i class="material-icons left">email</i>
+                    <span><h6>contact@rentea.in</h6></span>
+                </div>
+                <div class="blue-text text-darken-1" style="margin:40px 20px;">
+                    <i class="material-icons left">place</i>
+                    <span><h6>Bangalore, India - 860506</h6></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer grey darken-4">
+        <div class="row">
+            <div class="col s12 l4">
+                <div class="container">
+                    <a href="#" class="brand-logo"><img src="download.png" id="brand-logo-image-footer"></a>
+                    <ul class="" >
+                        <h6>Follow Us</h6>
+                        <li style="display: inline;"><a href="#" class="tooltipped btn-floating btn transparent z-depth-0" data-position="bottom" data-tooltip="Instagram"><i class="fab fa-instagram"></i>
+                        </a></li>
+                        <li style="display: inline;"><a href="#" class="tooltipped btn-floating btn transparent z-depth-0" data-position="bottom" data-tooltip="Facebook"><i class="fab fa-facebook"></i>
+                        </a></li>
+                        <li style="display: inline;"><a href="#" class="tooltipped btn-floating btn transparent z-depth-0" data-position="bottom" data-tooltip="Twitter"><i class="fab fa-twitter"></i>
+                        </a></li>
+                        <li style="display: inline;"><a href="#" class="tooltipped btn-floating btn transparent z-depth-0" data-position="bottom" data-tooltip="LinkedIn"><i class="fab fa-linkedin"></i>
+                        </a></li>
+                    </ul>
+                    <h6>Contact Us</h6>
+                    <div class="">
+                        <i class="material-icons left">phone</i>
+                        <span><p>+91 87893 30638</p></span>
+                    </div>
+                    <div class="">
+                        <i class="material-icons left">email</i>
+                        <span><p>contact@rentea.in</p></span>
+                    </div>
+                    <h6 style="margin-top: 20px;">Office Address</h6>
+                    <div class="">
+                        <i class="material-icons left">place</i>
+                        <span><p>Bangalore, India - 860506</p></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 l4">
+                <div class="container">
+                    <ul id="nav-footer">
+                        <li><a href="#" class="white-text">HOME</a></li>
+                        <li><a href="#" class="white-text">ABOUT US</a></li>
+                        <li><a href="#" class="white-text">CONTACT US</a></li>
+                        <li><a href="#" class="white-text">REFUND POLICY</a></li>
+                        <li><a href="#" class="white-text">TERMS AND CONDITIONS</a></li>
+                        <li><a href="#" class="white-text">PRIVACY POLICY</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col s12 l4">
+                <div class="container">
+                    <h6>DOWNLOAD THE APP</h6>
+                    <div>
+                        <a href="https://play.google.com/store/apps/details?id=in.rentea.rentea" class="btn z-depth-0" id="download-info-google">Get it on Google Play</a>
+                    </div>
+                    <div>
+                        <a href="#" class="btn z-depth-0" id="download-info-apple" onclick="alert('iOS App coming soon!')">Get it on Apple Store</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright black">
+            <div class="container center-align">Copyright &copy; 2021 Rentea</div>
+        </div>
+    </footer>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.tooltipped').tooltip();
+        })
+    </script>
+</body>
+</html>
